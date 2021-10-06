@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+.header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f4a261;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header_nav {
+  max-width: 300px;
+  width: 100%;
+}
+.header .header_nav .header_nav_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}/*# sourceMappingURL=Header.css.map */
