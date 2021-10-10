@@ -3,18 +3,34 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    background-color: $orangeColor;
-    height: 100px;
+    background-color: $greenColor;
+    height: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    .header_logo{
+        p{
+            text-align: center;
+        font-size: 24px;
+        }
+        .logo{
+            max-width: 150px;
+        }
+    }
     .header_nav{
-        max-width: 300px;
+        max-width: 500px;
         width: 100%;
         
         .header_nav_list{
             display: flex;
             list-style: none;
             justify-content: space-around;
+            .nav_link{
+                text-decoration: none;
+                color: #000;
+                font-weight: 500;
+                font-size: 20px;
+            }
         }
     }
 }

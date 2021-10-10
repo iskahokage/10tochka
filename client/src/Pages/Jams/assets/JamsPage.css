@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.jams h1 {
+  text-align: center;
+  color: #EA2626;
+  font-size: 36px;
+}
+.jams .jamsWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.jams .jamsWrapper .jam {
+  height: 500px;
+  max-width: 1200px;
+  margin: 150px auto 0 auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.jams .jamsWrapper .jam .jamContent {
+  background-color: #C1F9A2;
+  height: 80%;
+  margin: 0 50px;
+  border-radius: 20px;
+  width: 50%;
+  padding: 20px;
+}
+.jams .jamsWrapper .jam .jamContent .jamName {
+  font-size: 20px;
+}
+.jams .jamsWrapper .jam .jam_img_container {
+  border-radius: 20px;
+}
+.jams .jamsWrapper .jam .jam_img_container img {
+  max-width: 300px;
+}/*# sourceMappingURL=JamsPage.css.map */

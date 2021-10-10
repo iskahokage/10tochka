@@ -1,5 +1,7 @@
 @import '../variables/variables.scss';
 @import '../Components/Header/assets/Header.css';
+@import '../Pages/Home/assets//HomePage.css';
+@import '../Pages/Jams/assets/JamsPage.css';
 *{
     font-family: $montserrat;
     margin: 0;
@@ -7,5 +9,5 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #e76f51;
+    background-color: $backgroundColor;
 }
